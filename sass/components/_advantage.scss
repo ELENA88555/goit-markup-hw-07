@@ -2,10 +2,8 @@
   padding-top: 94px;
 }
 
-.list--icon-advantage-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.list--icon-advantage {
+@extend %centeredFlex;
   height: 120px;
   text-align: center;
   background-color: var(--background-section-work);
