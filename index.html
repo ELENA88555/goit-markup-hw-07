@@ -15,13 +15,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css "
     />
-    <link rel="stylesheet" href="./css/style.css" />
+   
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="page-header">
       <div class="container">
         <a class="logo" href="./index.html">
-          <span class="logo-web">Web</span>
+          <span class="logo__web">Web</span>
           Studio
         </a>
         <nav class="nav">
@@ -34,9 +35,9 @@
         <ul class="list nav-contact">
           <li>
             <a class="contacts" href="mailto:info@devstudio.com">
-              <svg class="hed-icon" width="16" height="12">
+              <svg class="contacts__hed-icon" width="16" height="12">
                 <use
-                  href="../goit-markup-hw-04/images/icons.svg#icon-envelope"
+                  href="./images/icons.svg#icon-envelope"
                 ></use>
               </svg>
               info@devstudio.com
@@ -44,9 +45,9 @@
           </li>
           <li>
             <a class="contacts contact-tel" href="tel:+380961111111">
-              <svg class="hed-icon" width="10" height="16">
+              <svg class="contacts__hed-icon" width="10" height="16">
                 <use
-                  href="../goit-markup-hw-04/images/icons.svg#icon-smartphone"
+                  href="./images/icons.svg#icon-smartphone"
                 ></use>
               </svg>
               +38 096 111 11 11
@@ -58,8 +59,8 @@
     <main>
       <section class="hero section">
         <div class="container">
-          <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="btn" data-modal-open>
+          <h1 class="hero__main-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero__btn" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -68,57 +69,57 @@
         <div class="container">
           <h2 class="visually-hidden">переваги</h2>
           <ul class="list list-text">
-            <li class="list-advantage">
-              <div class="icon-advantage-block">
-                <svg class="icon-advantage" width="70px" height="70px">
+            <li class="list__list-advantage">
+              <div class="list--icon-advantage-block">
+                <svg class="list__icon-advantage" width="70px" height="70px">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-antenna"
+                    href="./images/icons.svg#icon-antenna"
                   ></use>
                 </svg>
               </div>
-              <h3 class="subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="text">
+              <h3 class="list__subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="list__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="list-advantage">
-              <div class="icon-advantage-block">
-                <svg class="icon-advantage" width="70px" height="70px">
+            <li class="list__list-advantage">
+              <div class="list--icon-advantage-block">
+                <svg class="list__icon-advantage" width="70px" height="70px">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-clock"
+                    href="./images/icons.svg#icon-clock"
                   ></use>
                 </svg>
               </div>
-              <h3 class="subtitle">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="text">
+              <h3 class="list__subtitle">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="list__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="list-advantage">
-              <div class="icon-advantage-block">
-                <svg class="icon-advantage" width="70px" height="70px">
+            <li class="list__list-advantage">
+              <div class="list--icon-advantage-block">
+                <svg class="list__icon-advantage" width="70px" height="70px">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-diagram"
+                    href="./images/icons.svg#icon-diagram"
                   ></use>
                 </svg>
               </div>
-              <h3 class="subtitle">ПЛАНУВАННЯ</h3>
-              <p class="text">
+              <h3 class="list__subtitle">ПЛАНУВАННЯ</h3>
+              <p class="list__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="list-advantage">
-              <div class="icon-advantage-block">
-                <svg class="icon-advantage" width="70px" height="70px">
+            <li class="list__list-advantage">
+              <div class="list--icon-advantage-block">
+                <svg class="list__icon-advantage" width="70px" height="70px">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-astronaut"
+                    href="./images/icons.svg#icon-astronaut"
                   ></use>
                 </svg>
               </div>
-              <h3 class="subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="text">
+              <h3 class="list__subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="list__text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -128,12 +129,12 @@
       </section>
       <section class="section section-work">
         <div class="container">
-          <h2 class="title">Чим ми займаємося</h2>
+          <h2 class="section__title">Чим ми займаємося</h2>
           <ul class="list list-work">
             <li>
               <div class="overlay">
                 <img src="./images/pc.jpg" alt="робота за комп" width="370" />
-                <p class="text-overlay">Десктопні додатки</p>
+                <p class="overlay__text">Десктопні додатки</p>
               </div>
             </li>
             <li>
@@ -143,7 +144,7 @@
                   alt="робота з телефоном"
                   width="370"
                 />
-                <p class="text-overlay">Мобільні додатки</p>
+                <p class="overlay__text">Мобільні додатки</p>
               </div>
             </li>
             <li>
@@ -153,7 +154,7 @@
                   alt="робота з планшетом"
                   width="370"
                 />
-                <p class="text-overlay">Дизайнерські рішення</p>
+                <p class="overlay__text">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
@@ -161,52 +162,52 @@
       </section>
       <section class="section section-worker">
         <div class="container">
-          <h2 class="title title-worker">Наша команда</h2>
+          <h2 class="section__title title-worker">Наша команда</h2>
           <ul class="list-worker">
-            <li class="content">
+            <li class="list-worker__content">
               <img
                 src="./images/demianenko.jpg"
                 alt="фото демяненко"
                 width="270"
               />
               <div class="team">
-                <h3 class="subject">Ігор Дем'яненко</h3>
-                <p class="text-professional-contact" lang="en">
+                <h3 class="team__subject">Ігор Дем'яненко</h3>
+                <p class="team__text-professional-contact" lang="en">
                   Product Designer
                 </p>
                 <ul class="team-icon-list">
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-instagram"
+                          href="./images/icons.svg#icon-instagram"
                         ></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-twitter"
+                          href="./images/icons.svg#icon-twitter"
                         ></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-facebook"
+                          href="./images/icons.svg#icon-facebook"
                         ></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-linkedin"
+                          href="./images/icons.svg#icon-linkedin"
                         ></use>
                       </svg>
                     </a>
@@ -214,46 +215,46 @@
                 </ul>
               </div>
             </li>
-            <li class="content">
+            <li class="list-worker__content">
               <img src="./images/repina.jpg" alt="фото репіна" width="270" />
               <div class="team">
-                <h3 class="subject">Ольга Рєпіна</h3>
-                <p class="text-professional-contact" lang="en">
+                <h3 class="team__subject">Ольга Рєпіна</h3>
+                <p class="team__text-professional-contact" lang="en">
                   Frontend Developer
                 </p>
                 <ul class="team-icon-list">
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-instagram"
+                          href="./images/icons.svg#icon-instagram"
                         ></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-twitter"
+                          href="./images/icons.svg#icon-twitter"
                         ></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-facebook"
+                          href="./images/icons.svg#icon-facebook"
                         ></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-linkedin"
+                          href="./images/icons.svg#icon-linkedin"
                         ></use>
                       </svg>
                     </a>
@@ -261,44 +262,44 @@
                 </ul>
               </div>
             </li>
-            <li class="content">
+            <li class="list-worker__content">
               <img src="./images/tarasov.jpg" alt="фото тарасов" width="270" />
               <div class="team">
-                <h3 class="subject">Микола Тарасов</h3>
-                <p class="text-professional-contact" lang="en">Marketing</p>
+                <h3 class="team__subject">Микола Тарасов</h3>
+                <p class="team__text-professional-contact" lang="en">Marketing</p>
                 <ul class="team-icon-list">
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-instagram"
+                          href="./images/icons.svg#icon-instagram"
                         ></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-twitter"
+                          href="./images/icons.svg#icon-twitter"
                         ></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-facebook"
+                          href="./images/icons.svg#icon-facebook"
                         ></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-linkedin"
+                          href="./images/icons.svg#icon-linkedin"
                         ></use>
                       </svg>
                     </a>
@@ -306,44 +307,44 @@
                 </ul>
               </div>
             </li>
-            <li class="content">
+            <li class="list-worker__content">
               <img src="./images/ermakov.jpg" alt="фото єрмаков" width="270" />
               <div class="team">
-                <h3 class="subject">Михайло Єрмаков</h3>
-                <p class="text-professional-contact" lang="en">UI Designer</p>
+                <h3 class="team__subject">Михайло Єрмаков</h3>
+                <p class="team__text-professional-contact" lang="en">UI Designer</p>
                 <ul class="team-icon-list">
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-instagram"
+                          href="./images/icons.svg#icon-instagram"
                         ></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-twitter"
+                          href="./images/icons.svg#icon-twitter"
                         ></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-facebook"
+                          href="./images/icons.svg#icon-facebook"
                         ></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a class="team-icon" href="">
-                      <svg class="team-icon-link" width="20px" height="20px">
+                      <svg class="team-icon__link" width="20px" height="20px">
                         <use
-                          href="../goit-markup-hw-04/images/icons.svg#icon-linkedin"
+                          href="./images/icons.svg#icon-linkedin"
                         ></use>
                       </svg>
                     </a>
@@ -356,58 +357,58 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="title">Постійні клієнти</h2>
-          <ul class="list-client">
-            <li class="client-link-list">
-              <a href="" class="client-link">
-                <svg class="client-icon">
+          <h2 class="section__title">Постійні клієнти</h2>
+          <ul class="clients">
+            <li class="clients__list">
+              <a href="" class="client__link">
+                <svg class="client__icon">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-Logo"
+                    href="./images/icons.svg#icon-Logo"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="client-link-list">
-              <a href="" class="client-link">
-                <svg class="client-icon">
+            <li class="clients__list">
+              <a href="" class="client__link">
+                <svg class="client__icon">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-Logo-2"
+                    href="./images/icons.svg#icon-Logo-2"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="client-link-list">
-              <a href="" class="client-link">
-                <svg class="client-icon">
+            <li class="clients__list">
+              <a href="" class="client__link">
+                <svg class="client__icon">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-Logo-3"
+                    href="./images/icons.svg#icon-Logo-3"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="client-link-list">
-              <a href="" class="client-link">
-                <svg class="client-icon">
+            <li class="clients__list">
+              <a href="" class="client__link">
+                <svg class="client__icon">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-Logo-4"
+                    href="./images/icons.svg#icon-Logo-4"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="client-link-list">
-              <a href="" class="client-link">
-                <svg class="client-icon">
+            <li class="clients__list">
+              <a href="" class="client__link">
+                <svg class="client__icon">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-Logo-5"
+                    href="./images/icons.svg#icon-Logo-5"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="client-link-list">
-              <a href="" class="client-link">
-                <svg class="client-icon">
+            <li class="clients__list">
+              <a href="" class="client__link">
+                <svg class="client__icon">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-Logo-6"
+                    href="./images/icons.svg#icon-Logo-6"
                   ></use>
                 </svg>
               </a>
@@ -420,8 +421,8 @@
       <div class="container container-footer">
         <div class="address-container">
           <a class="logo logo-footer" href="./index.html">
-            <span class="logo-web">Web</span>
-            <span class="logo-studio">Studio</span>
+            <span class="logo__web">Web</span>
+            <span class="logo__studio">Studio</span>
           </a>
           <address class="">
             <ul class="list address-footer">
@@ -450,40 +451,40 @@
           </address>
         </div>
         <div class="social-link">
-          <p class="title-icon">приєднуйтесь</p>
+          <p class="social-link__title-icon">приєднуйтесь</p>
           <ul class="team-icon-list">
             <li>
               <a class="team-icon icon-footer" href="">
-                <svg class="team-icon-link" width="20px" height="20px">
+                <svg class="team-icon__link" width="20px" height="20px">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-instagram"
+                    href="./images/icons.svg#icon-instagram"
                   ></use>
                 </svg>
               </a>
             </li>
             <li>
               <a class="team-icon icon-footer" href="">
-                <svg class="team-icon-link" width="20px" height="20px">
+                <svg class="team-icon__link" width="20px" height="20px">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-twitter"
+                    href="./images/icons.svg#icon-twitter"
                   ></use>
                 </svg>
               </a>
             </li>
             <li>
               <a class="team-icon icon-footer" href="">
-                <svg class="team-icon-link" width="20px" height="20px">
+                <svg class="team-icon__link" width="20px" height="20px">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-facebook"
+                    href="./images/icons.svg#icon-facebook"
                   ></use>
                 </svg>
               </a>
             </li>
             <li>
               <a class="team-icon icon-footer" href="">
-                <svg class="team-icon-link" width="20px" height="20px">
+                <svg class="team-icon__link" width="20px" height="20px">
                   <use
-                    href="../goit-markup-hw-04/images/icons.svg#icon-linkedin"
+                    href="./images/icons.svg#icon-linkedin"
                   ></use>
                 </svg>
               </a>
@@ -491,18 +492,18 @@
           </ul>
         </div>
        <form class="form-footer" >
-        <p class="footer-text-form"> Підпишіться на розсилку</p>
-       <div class="form-footer-field">
+        <p class="form-footer__text"> Підпишіться на розсилку</p>
+       <div class="form-footer__field">
         
        <input type="email"
          name="user-email" 
          id="form-footer" 
          class="footer-input"
          placeholder="E-mail"/>
-         <button type="submit" class="modal-btn-footer" > 
+         <button type="submit" class="form-footer__btn" > 
           Підписатися
                 
-          <svg class="form-footer-icon" width="24" height="24">
+          <svg class="form-footer__icon" width="24" height="24">
             <use href="./images/icons.svg#icon-send"></use>
            </svg>
           </button>
@@ -514,58 +515,58 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="btn-cloze" data-modal-close>
-          <svg class="btn-cloze-icon">
+        <button class="modal__btn-cloze" data-modal-close>
+          <svg class="modal__btn-cloze-icon">
             <use href="./images/icons.svg#icon-Vector"></use>
           </svg>
         </button>
-        <p class="text-modal">Залиште свої дані, ми вам передзвонимо</p>
+        <p class="modal__text">Залиште свої дані, ми вам передзвонимо</p>
         <form  class="modal-form">
           <div class="form-field">
-            <label for="user-name" class="modal-label">Ім'я</label>
+            <label for="user-name" class="moda__label">Ім'я</label>
          <div class="input-wrapper">
           <input type="text"
            name="name" 
            id="user-name" 
-           class="modal-input"/>
-          <svg class="modal-icon" width="18" height="18">
+           class="modal__input"/>
+          <svg class="modal__icon" width="18" height="18">
            <use href="./images/icons.svg#icon-person"></use>
           </svg>
          </div>
         </div>
 
           <div class="form-field">
-            <label for="user-tel" class="modal-label">Телефон</label>
+            <label for="user-tel" class="modal__label">Телефон</label>
             <div class="input-wrapper">
               <input type="tel"
               name="user-tel"
               id="user-tel" 
               required
-              class="modal-input"/>
-              <svg class="modal-icon" width="18" height="18">
+              class="modal__input"/>
+              <svg class="modal__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-phone"></use>
                </svg>
             </div>
            
           </div>
           <div class="form-field">
-            <label for="user-email" class="modal-label">Пошта</label>
+            <label for="user-email" class="modal__label">Пошта</label>
             <div class="input-wrapper">
             <input type="email"
              name="user-email" 
              id="user-email" 
              required
-             class="modal-input"/>
-            <svg class="modal-icon" width="18" height="18">
+             class="modal__input"/>
+            <svg class="modal__icon" width="18" height="18">
               <use href="./images/icons.svg#icon-email"></use>
              </svg>
             </div>
           </div>
           <div class="form-field">
-            <label for="user-coment" class="modal-label">Коментар</label>
+            <label for="user-coment" class="modal__label">Коментар</label>
            <textarea  
            name="user-coment" 
-           class="user-coment"
+           class="modal__user-coment"
            id="user-coment"
             placeholder="Введіть текст"></textarea>
                                 
@@ -575,12 +576,12 @@
             type="checkbox" 
             name="modal-checkbox" 
             id="modal-checkbox"
-            class="modal-check visually-hidden">
+            class="form-checkbox__modal-check visually-hidden">
           <label 
           for="modal-checkbox"
-          class="checkbox-text">
-              <span>
-                <svg width="16" height="15" >
+          class="form-checkbox__text">
+              <span >
+                <svg  width="16" height="15" >
                   <use href="./images/icons.svg#icon-Vector-one"></use>
                 </svg>
               </span>

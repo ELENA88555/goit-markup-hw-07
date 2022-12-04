@@ -1,0 +1,43 @@
+.logo {
+  font-family: 'Raleway';
+   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+  text-decoration: none;
+  margin-right: 93px;
+  transition-property: color;
+    transition-duration:250ms;
+    transition-timing-function: var(--cubic-bezier);
+    &:hover, &:focus {
+      color:var(--logo-link);
+    }
+  
+
+  }
+
+ 
+  
+  .logo__web {
+    color:var(--logo-link);
+    text-decoration: none;
+    
+  }
+
+  .logo__studio {
+color: var(--white-color);
+&:hover,
+&:focus {
+    color: var(--logo-link);
+  }
+}
+
+
+
+  
+   .logo-footer {
+  display:inline-block;
+  margin-bottom: 20px;
+  margin-right: 0;
+  }

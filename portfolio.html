@@ -12,13 +12,14 @@
       rel="stylesheet"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css ">
 
-    <link rel="stylesheet" href="./css/style.css" />
+   
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="font-color">
     <header class="page-header">
       <div class="container header-container">
         <a class="logo" href="./index.html">
-          <span class="logo-web">Web</span>
+          <span class="logo__web">Web</span>
           Studio
         </a>
       <nav class="nav">
@@ -31,19 +32,17 @@
       <ul class="list nav-contact">
         <li>
           <a class="contacts " href="mailto:info@devstudio.com">
-            <svg class="hed-icon" width="16" height="12"  >
-              <use href="../goit-markup-hw-04/images/icons.svg#icon-envelope">
-                
+            <svg class="contacts__hed-icon" width="16" height="12"  >
+              <use href="./images/icons.svg#icon-envelope">
               </use>
-
             </svg>
             info@devstudio.com
           </a>
         </li>
         <li>
           <a class="contacts contact-tel" href="tel:+380961111111">
-            <svg class="hed-icon" width="10" height="16"  >
-              <use href="../goit-markup-hw-04/images/icons.svg#icon-smartphone">
+            <svg class="contacts__hed-icon" width="10" height="16"  >
+              <use href="./images/icons.svg#icon-smartphone">
                 
               </use>
 
@@ -250,8 +249,8 @@
     <div class="container container-footer ">
     <div class="address-container">
     <a class="logo logo-footer " href="./index.html">
-      <span class="logo-web">Web</span>
-      <span class="logo-studio">Studio</span>
+      <span class="logo__web">Web</span>
+      <span class="logo__studio">Studio</span>
     </a>
     <address class="">
       <ul class="list address-footer">
@@ -275,14 +274,14 @@
     </address>
   </div>
     <div class="social-link">
-      <p class="title-icon">
+      <p class="social-link__title-icon">
         приєднуйтесь
       </p>
       <ul class="team-icon-list">
         <li>
           <a class="team-icon icon-footer" href="">
-            <svg class="team-icon-link" width="20px" height="20px">
-              <use href="../goit-markup-hw-04/images/icons.svg#icon-instagram">
+            <svg class="team-icon__link" width="20px" height="20px">
+              <use href="./images/icons.svg#icon-instagram">
 
               </use>
             </svg>
@@ -290,8 +289,8 @@
         </li>
         <li >
           <a class="team-icon icon-footer" href="">
-            <svg class="team-icon-link"  width="20px" height="20px">
-              <use href="../goit-markup-hw-04/images/icons.svg#icon-twitter">
+            <svg class="team-icon__link"  width="20px" height="20px">
+              <use href="./images/icons.svg#icon-twitter">
 
               </use>
             </svg>
@@ -299,8 +298,8 @@
         </li>
         <li >
           <a class="team-icon icon-footer" href="">
-            <svg class="team-icon-link"  width="20px" height="20px">
-              <use href="../goit-markup-hw-04/images/icons.svg#icon-facebook">
+            <svg class="team-icon__link"  width="20px" height="20px">
+              <use href="./images/icons.svg#icon-facebook">
 
               </use>
             </svg>
@@ -308,8 +307,8 @@
         </li>
         <li >
           <a class="team-icon icon-footer" href="">
-            <svg class="team-icon-link" width="20px" height="20px">
-              <use href="../goit-markup-hw-04/images/icons.svg#icon-linkedin">
+            <svg class="team-icon__link" width="20px" height="20px">
+              <use href="./images/icons.svg#icon-linkedin">
 
               </use>
             </svg>
@@ -318,18 +317,18 @@
       </ul>
      </div>
      <form class="form-footer" >
-      <p class="footer-text-form"> Підпишіться на розсилку</p>
-     <div class="form-footer-field">
+      <p class="form-footer__text"> Підпишіться на розсилку</p>
+     <div class="form-footer__field">
       
      <input type="email"
        name="user-email" 
        id="form-footer" 
        class="footer-input"
        placeholder="E-mail"/>
-       <button type="submit" class="modal-btn-footer" > 
+       <button type="submit" class="form-footer__btn" > 
         Підписатися
               
-        <svg class="form-footer-icon" width="24" height="24">
+        <svg class="form-footer__icon" width="24" height="24">
           <use href="./images/icons.svg#icon-send"></use>
          </svg>
         </button>

@@ -1,0 +1,44 @@
+:root {
+  --text-color: #212121;
+  --logo-color: #000000;
+  --logo-link: #2196F3;
+  --white-color:#FFFFFF;
+  --color-grey: #757575;
+  --padding-top:94px;
+  --padding-bottom: 94px;
+  --background-section-work:#F5F4FA;
+  --content-border: #EEEEEE ;
+  --cubic-bezier:cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {margin: 0;}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  height: auto;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+
+address {
+  font-style: normal;
+   }
