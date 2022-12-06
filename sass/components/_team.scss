@@ -5,9 +5,9 @@
     }
   
     .list-worker__content {
-      box-shadow:0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-      border-radius: 0px 0px 4px 4px;
-       background-color: var(--white-color);
+    box-shadow:0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--white-color);
     width: calc((100% - 90px) /4);
     
     }
@@ -54,27 +54,22 @@ fill: var(--white-color);
 
    .team__subject {
     margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 16px;
+    @include fonts($weight:500, $size:16px);
     line-height: 1.18;
     letter-spacing: 0.03em;
   }
 
   .text-profession {
-
-    font-weight: 400;
-    font-size: 16px;
+    @include fonts($size:16px);
     line-height: 1.88;
-    letter-spacing: 0.03em;
+    letter-spacing: $let-sp;
     color: var(--color-grey);
     }
   
     .team__text-professional-contact {
-      margin-bottom: 16px;
-     font-weight: 400;
-    font-size: 16px;
+    @include fonts($size:16px);
     line-height: 1.18;
-    letter-spacing: 0.03em;
+    letter-spacing: $let-sp;
     color: var(--color-grey);
     }
   
@@ -82,5 +77,5 @@ fill: var(--white-color);
   padding-top: 30px;
   padding-bottom: 30px;
   margin: auto;
-   text-align: center;
+  text-align: center;
   }

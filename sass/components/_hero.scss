@@ -1,6 +1,4 @@
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
   background: #2F303A;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backgraund.jpg);
   background-repeat: no-repeat; 
@@ -18,8 +16,7 @@
   padding-right: 0;
   padding-left: 0;
   max-width: 696px;
-  font-weight: 900;
-  font-size: 44px;
+  @include fonts(900, 44px);
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -33,10 +30,9 @@
   min-width: 216px;
   height: 50px;
   margin: auto;
-  font-family: 'Roboto';
+  font-family: $fontPrimary;
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
+  @include fonts(700, 16px);
   line-height: 1.87;
   letter-spacing: 0.06em;
   color:var(--white-color);

@@ -45,7 +45,7 @@ address {
   font-style: normal;
 }
 
-.list-portfolio, .form-checkbox__text span, .form-checkbox__text, .modal-btn, .form-footer__btn, .form-footer__field, .list--icon-advantage, .client-item, .client__link, .clients, .team-icon, .team-icon-list, .text-overlay-portfolio, .contacts {
+.list-portfolio, .overlay__text, .form-checkbox__text span, .form-checkbox__text, .modal-btn, .form-footer__btn, .form-footer__field, .list--icon-advantage, .client-item, .client__link, .clients, .team-icon, .team-icon-list, .text-overlay-portfolio, .nav-contact__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +96,7 @@ address {
   border-bottom: solid 1px #ECECEC;
 }
 
-.nav-header {
+.nav__header {
   display: flex;
   align-items: center;
   margin-top: 32px;
@@ -109,7 +109,7 @@ address {
   margin-right: auto;
 }
 
-.contact-tel {
+.nav-contact__link--tel {
   margin-right: 50px;
   margin-left: 30px;
 }
@@ -118,7 +118,7 @@ address {
   display: flex;
 }
 
-.link {
+.nav__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -129,11 +129,11 @@ address {
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-bezier);
 }
-.link:hover, .link:focus {
+.nav__link:hover, .nav__link:focus {
   color: var(--logo-link);
 }
 
-.contacts {
+.nav-contact__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -144,20 +144,20 @@ address {
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-bezier);
 }
-.contacts:hover, .contacts:focus {
+.nav-contact__link:hover, .nav-contact__link:focus {
   color: var(--logo-link);
 }
 
-.contacts__hed-icon {
+.nav-contact__icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.current {
+.nav__link--current {
   position: relative;
   color: var(--logo-link);
 }
-.current::after {
+.nav__link--current::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -169,8 +169,6 @@ address {
 }
 
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
   background: #2F303A;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backgraund.jpg);
   background-repeat: no-repeat;
@@ -442,9 +440,9 @@ section.section-worker {
 }
 
 .address {
+  line-height: 1.71;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-color);
   text-decoration: none;
@@ -577,21 +575,21 @@ footer.addresses {
 }
 .footer-input::-moz-placeholder {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-input:-ms-input-placeholder {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-input::placeholder {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -748,21 +746,21 @@ footer.addresses {
 }
 .modal__user-coment::-moz-placeholder {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 .modal__user-coment:-ms-input-placeholder {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 .modal__user-coment::placeholder {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
@@ -845,7 +843,6 @@ footer.addresses {
 
 .overlay__text {
   position: absolute;
-  display: flex;
   width: 100%;
   min-height: 70px;
   left: 0px;
@@ -858,8 +855,6 @@ footer.addresses {
   text-transform: uppercase;
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--white-color);
-  align-items: center;
-  justify-content: center;
 }
 
 .section-work {

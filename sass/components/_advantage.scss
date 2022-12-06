@@ -24,16 +24,14 @@ gap: 30px;
  
  .list__subtitle {
   margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
+  @include fonts(700, 14px);
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: $let-sp;
   text-transform: uppercase;
 }
 .list__text {
-font-weight: 400;
-font-size: 14px;
+@include fonts;
 line-height: 1.71;
-letter-spacing: 0.03em;
+letter-spacing: $let-sp;
 color: var(--color-grey);
 } 

@@ -1,7 +1,6 @@
 .address {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
+  @include fonts;
   letter-spacing: 0.03em;
   color: var(--white-color);
   text-decoration: none;
@@ -14,8 +13,7 @@
 
  
   .contact-address {
-    font-weight: 400;
-    font-size: 14px;
+    @include fonts;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -52,10 +50,9 @@
 
  .social-link__title-icon {
 margin-bottom: 20px;
-font-weight: 700;
-font-size: 14px;
+@include fonts(700, 14px);
 line-height: 1.14;
-letter-spacing: 0.03em;
+letter-spacing: $let-sp;
 text-transform: uppercase;
 color: var(--white-color);
 

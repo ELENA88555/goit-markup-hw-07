@@ -1,10 +1,9 @@
 
 .form-footer__text {
   margin-bottom: 20px;
-  font-weight: 700;
-font-size: 14px;
+  @include fonts(700, 14px);
 line-height: 1.14;
-letter-spacing: 0.03em;
+letter-spacing: $let-sp;
 text-transform: uppercase;
 color: var(--white-color);
 
@@ -31,10 +30,9 @@ color: var(--white-color);
     border-color: var(--logo-link);
     }
     &::placeholder {
-      font-weight: 400;
-      font-size: 16px;
+      @include fonts(400, 12px);
       line-height: 1.25;
-      letter-spacing: 0.03em;
+      letter-spacing: $let;
       color: rgba(255, 255, 255, 0.6);
       
       }
@@ -56,8 +54,7 @@ background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border: transparent;
 border-radius: 4px;
-font-weight: 700;
-font-size: 16px;
+@include fonts($weight:700, $size:16px);
 line-height: 1.88;
 text-align: center;
 letter-spacing: 0.06em;

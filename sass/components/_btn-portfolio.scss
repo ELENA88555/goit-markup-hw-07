@@ -7,12 +7,11 @@
 
 .btn-portfolio {
   padding: 6px 22px;
-  font-family: 'Roboto';
+  font-family: $fontPrimary;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  @include fonts (500, 16px);
   line-height: 1.62;
-  letter-spacing: 0.03em;
+  letter-spacing: $let-sp;
   background: #F5F4FA;
   cursor: pointer;
   border-radius: 4px;

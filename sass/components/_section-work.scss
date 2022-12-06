@@ -11,22 +11,20 @@
 
 .overlay__text {
   position: absolute;
-  display: flex;
+  @extend %centeredFlex;
   width: 100%;
  min-height: 70px;
   left: 0px;
   bottom:0px;
-  font-weight: 700;
-font-size: 14px;
+@include fonts($weight:700);
 line-height: 1.14;
 text-align: center;
-letter-spacing: 0.03em;
+letter-spacing: $let-sp;
 text-transform: uppercase;
   
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--white-color);
-  align-items: center;
-  justify-content: center;
+
         
   }
 
