@@ -32,7 +32,7 @@ color: var(--white-color);
     &::placeholder {
       @include fonts(400, 12px);
       line-height: 1.25;
-      letter-spacing: $let;
+      letter-spacing: $let-sp;
       color: rgba(255, 255, 255, 0.6);
       
       }
